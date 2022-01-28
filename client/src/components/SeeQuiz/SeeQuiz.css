@@ -1,0 +1,124 @@
+.see-quiz {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 50px;
+    height: calc(98% - 60px);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.see-quiz .not-auth {
+    width: 100%;
+    text-align: center;
+    margin-top: 27%;
+    font-size: 2.7em;
+}
+
+.see-quiz .content {
+    width: 100%;
+    
+}
+
+.see-quiz .header {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    font-weight: 350;
+    border-bottom: 4px solid #dadfea;
+    padding: 15px 0;
+}
+
+.see-quiz .body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.see-quiz .body .right {
+    flex: .5;
+    background-color: #f1e9e9;
+    color :black;
+}
+
+.see-quiz .body .right .questions-num {
+    background-color :white;
+    width: 100%;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.see-quiz .body .right .questions-wrapper {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 600px;
+    position: relative;
+}
+
+.see-quiz .body .right .no-scroll {
+    overflow: hidden !important;
+}
+
+.see-quiz .body .right .questions-wrapper .question {
+    margin: 15px 0;
+    padding: 13px;
+    background-color :white;
+    border-left: 20px solid #00aaf1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+.see-quiz .body .right .hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+.see-quiz .body .right .hidden div {
+    margin-top: 40%;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.see-quiz .footer {
+    width: 100%;
+    background-color: rgb(235, 225, 225);
+    color: black;
+    padding: 40px 0;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.see-quiz .footer .buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.see-quiz .footer .buttons-wrapper button {
+    margin: 0 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    padding: 13px 23px;
+    cursor: pointer;
+    background-color: rgba(94,92,236, 1) !important;
+}
+
+.see-quiz .footer .buttons-wrapper button:first-child {
+    margin: 0 40px;
+    color: white;
+    background-color: rgba(94,92,236, 1) !important;
+}

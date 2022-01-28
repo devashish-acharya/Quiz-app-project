@@ -1,0 +1,78 @@
+.all-quiz-wrap {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.all-quiz-wrap .body {
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+    background-color: white;
+}
+
+.all-quiz-wrap .header-top {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 40px 0 0 40px;
+}
+
+.all-quiz-wrap .quizzes-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card {
+    margin-top: 40px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .top-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #00000080;
+    color: rgb(156, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .top-section > div {
+    display: flex;
+    align-items: center;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .top-section img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card img {
+    object-fit: contain;
+        
+    width: 18vw;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .quiz-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .take-quiz {
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto 0;
+    color: rgb(126, 39, 39);
+}
+
+.all-quiz-wrap .quizzes-wrapper .quiz-card .questions {
+    margin: 2px 0;
+}
